@@ -6,6 +6,8 @@ Kanji-App is a language conversion app that take in images of Japanese kanji and
 
 [Try Our App](https://infinite-taiga-51262.herokuapp.com)
 
+[See it work on mobile](https://drive.google.com/open?id=1yfJW_z5q5lJBi3mqicfV3a9RvnR2uLy0)
+
 ## Key Features
 
 * Automatic text detection
@@ -143,10 +145,10 @@ These are the things we did not do well enough, or problems we had with the libr
 * Kuroshiro
 	- Kuroshiro is our kanji to hiragana library, its accuracy is not 100% and it doesn't recognize some kanji.
 * Delay
-	- Due to the modularity required for testing it was difficult to implement callback for some processing functions.
+	- Due to the modularity required for testing it was difficult to implement callbacks for some processing functions.
 	Instead we used a two second hard delay for processing to finish.
 * Language Filtering
-	- to filter Languages check the unicode of detected characters, that is anything outside of the unicode bracket of Japanese kanji is omitted.
+	- To filter languages we check the unicode of detected characters, that is anything outside of the unicode bracket of Japanese kanji is omitted.
 	This can lead to legitimate kanji not being displayed
 * Drag and Drop
 	- Our drag and drop uses only the browsers native feature. A better drag and drop would have a dedicated area on the screen.
