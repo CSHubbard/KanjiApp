@@ -6,8 +6,6 @@ Kanji-App is a language conversion app that take in images of Japanese kanji and
 
 [Try Our App](https://infinite-taiga-51262.herokuapp.com)
 
-[See it work on mobile](https://drive.google.com/open?id=1yfJW_z5q5lJBi3mqicfV3a9RvnR2uLy0)
-
 ## Key Features
 
 * Automatic text detection
